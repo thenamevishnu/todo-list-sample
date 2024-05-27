@@ -17,8 +17,6 @@ const Crud = () => {
         setTodo("")
     }
 
-    [1,2,3,4]
-
     const removeTodo = (deleteIndex) => {
         const res = toDos.filter((element, index) => {
             if (deleteIndex != index) {
